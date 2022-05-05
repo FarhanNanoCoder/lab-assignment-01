@@ -1,10 +1,20 @@
 public class Test2 {
     private String id;
     private  String email;
+    private int courses;
 
-    public Test2(String id, String email) {
+    public Test2(String id, String email,int courses) {
         this.id = id;
         this.email = email;
+        this.courses = courses;
+    }
+
+    public int getCourses() {
+        return courses;
+    }
+    
+    public void setCourses(int courses) {
+        this.courses = courses;
     }
 
     public String getEmail() {
