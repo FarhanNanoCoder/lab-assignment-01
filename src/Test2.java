@@ -1,10 +1,20 @@
 public class Test2 {
     private String id;
     private  String email;
+    private float cgpa;
 
-    public Test2(String id, String email) {
+    public Test2(String id, String email, float cgpa) {
         this.id = id;
         this.email = email;
+        this.cgpa = cgpa;
+    }
+
+    public float getCgpa() {
+        return cgpa;
+    }
+
+    public void setCgpa(float cgpa) {
+        this.cgpa = cgpa;
     }
 
     public String getEmail() {
